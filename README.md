@@ -1,46 +1,31 @@
-# Getting Started with Create React App
+Проект на React-Redux с TypeScript
+Добро пожаловать в React-Redux TypeScript Project!
+Этот проект создан как учебное пособие для изучения React, Redux и TypeScript. Основное внимание уделяется функциональности и управлению состоянием, а не верстке и дизайну.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Описание проекта
+Проект состоит из двух основных компонентов:
 
-## Available Scripts
+Список пользователей
 
-In the project directory, you can run:
+Динамический список пользователей, получаемых с API JSONPlaceholder.
+Компонент демонстрирует, как обрабатывать асинхронные действия, управлять состоянием с помощью Redux и использовать TypeScript для типизации данных.
+Список задач (Todo List)
 
-### `npm start`
+Простое приложение для управления задачами, где можно просматривать и переключаться между страницами списка задач.
+Компонент подчеркивает важность управления состоянием с помощью Redux и обеспечения надежной типизации при помощи TypeScript.
+Цель проекта
+Основная цель проекта — предоставить практический опыт работы с React, Redux и TypeScript.
+Проект не рассчитан на создание полностью завершенного и отлаженного продукта. Его задача — помочь разработчикам понять, как эти технологии работают вместе, управляют сложным состоянием приложения и обеспечивают надежность кода через типизацию.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Основные возможности
+React с TypeScript
+Изучение создания компонентов с использованием строгой типизации, что улучшает читаемость кода и уменьшает количество ошибок на этапе выполнения.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Управление состоянием с Redux
+Понимание того, как управлять глобальным состоянием в приложении React с помощью Redux, включая работу с асинхронными действиями через redux-thunk.
 
-### `npm test`
+Интеграция с API
+Практика получения данных из внешнего API и управления полученными данными в состоянии приложения.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Фокус на функциональность
+Проект ориентирован на функциональные возможности, что делает его идеальным для разработчиков, стремящихся улучшить свои технические навыки в работе с React, Redux и TypeScript.
